@@ -116,6 +116,8 @@ time_label.pack(anchor=tk.E, padx=10)
 # Edw, dinoume kai onoma sto widget, gia na mporoume na xarakthrisoume ta events poy kanoume bind se afto
 type_entry = tk.Entry(window, name="type_entry")
 
+# Give focus to type_entry
+type_entry.focus_set()
 # Prepei na allaxoume th seira me thn opoia epexergazetai ta events h tkinter
 # Etsi, to keimeno tha kataxwretai prin kalesoume th synarthsh poy elegxei to keimeno
 type_entry.bindtags(("Entry", ".type_entry", ".", "all"))
